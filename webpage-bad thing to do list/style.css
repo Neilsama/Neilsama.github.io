@@ -1,0 +1,103 @@
+@import 'https://fonts.googleapis.com/css?family=Rubik:300,400';
+
+body{
+	padding-left: 140px;
+	float: left;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+}
+
+.container{
+	float: left;
+	margin: 40px;
+}
+
+
+#bg1{
+	width: 400px;
+	height: 720px;
+	z-index: -1;
+	position: absolute;
+}
+
+#bg2{
+	width: 400px;
+	height: 720px;
+	z-index: -1;
+	position: absolute;
+}
+/*-------------------page 1 elements-------------------*/
+#image{
+	width: 400px;
+	text-align: center;
+}
+#icon{
+	width: 38px;
+	margin-top: 228px;
+	z-index: 3;
+}
+#listcContainer{
+	margin-top: 4px;
+	width: 400px;
+	height: 430px;
+}
+
+.option{
+	width: 340px;
+	height: 40px;
+	margin-left: 30px;
+	text-indent: 10px;
+	font-size: 16pt;
+	color: #a47cff;
+	margin-top: 3px;	
+	background:#1a1a1a;
+	border-radius: 4px;
+}
+p{
+	margin:0px;
+	padding-top: 5px;
+}
+
+
+/*-------------------page 2 elements-------------------*/
+#buttons{
+	margin-top: 126px;
+	color: white;
+	width: 400px;
+	height: 30px;
+	font-size: 16pt;
+	z-index: 1;
+}
+#btn-back{
+	float: left;
+	padding-left: 30px;
+}
+#btn-done{
+	float: right;
+	padding-right: 30px;
+}
+
+input[type = "text"]{
+	width: 340px;
+	height: 30px;
+	border-radius: 4px;
+	margin-top: 30px;
+	margin-left: 30px;
+	font-size: 12pt;
+	color: #a47cff;
+	text-align: top;
+	position: relative;
+	background: none;
+	border:none;
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
