@@ -1,0 +1,49 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color:#1c1c1c;
+}
+
+h1{
+  margin-top: 4vh;
+  color:#ff19a5;
+  width:100vw;
+  height:10vh;
+  font-size: 4em;
+  text-align:center;
+  font-family: 'Patrick Hand', cursive;
+}
+
+p{
+  text-align: center;
+  color: white;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2em;
+}
+
+
+.button{
+  width:15vw;
+  height:50px;
+  padding-top: 12px;
+  margin: 4vw;
+  border-style: solid;
+  border-width:1px;
+  border-color: #ff19a5;
+  border-radius: 4px;
+  color:#ff19a5;
+  font-size:1.5em;
+  font-family: 'Patrick Hand', cursive;
+  float: left;
+}
+
+.selsect{
+  background: #ff19a5;
+  font-size:1.5em;
+  color:white;
+}
+
+#buttonContainer{
+  text-align: center;
+  padding-left: 30vw;
+}
